@@ -9,7 +9,7 @@ until user_guess == "exit" do
     comp_guess = rand(1..6)
     
     if user_guess == "exit"
-      puts "Goodbye"
+      puts "Goodbye!"
     elsif user_guess.to_i == comp_guess
      puts "You guessed the correct number!"
    else 
