@@ -10,7 +10,7 @@ until user_guess == "exit" do
     
     if user_guess == "exit"
       puts "Goodbye"
-    if user_guess == comp_guess
+    elsif user_guess.to_i == comp_guess
      puts "You guessed the correct number!"
    else 
      puts "The computer guessed #{comp_guess}."
