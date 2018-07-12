@@ -20,5 +20,5 @@ until user_guess == "exit" do
   user_guess = gets.chomp
    comp_guess = rand(1..6)
 end
-puts "Goodbye"
+puts "Goodbye!"
 end 
