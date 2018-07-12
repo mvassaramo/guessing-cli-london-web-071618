@@ -4,7 +4,6 @@ def run_guessing_game
   puts "Guess a number between 1 and 6."
   user_guess = gets.chomp
 
-
 until user_guess == "exit" do 
     comp_guess = rand(1..6)
     
