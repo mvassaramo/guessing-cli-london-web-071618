@@ -8,6 +8,8 @@ def run_guessing_game
 until user_guess == "exit" do 
     comp_guess = rand(1..6)
     
+    if user_guess == "exit"
+      puts "Goodbye"
     if user_guess == comp_guess
      puts "You guessed the correct number!"
    else 
