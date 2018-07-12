@@ -17,7 +17,7 @@ until user_guess == "exit" do
    end 
    
    puts "Guess a number between 1 and 6."
-  user_guess = gets.chomp.to_i
+  user_guess = gets.chomp
    comp_guess = rand(1..6)
 end
 puts "Goodbye"
