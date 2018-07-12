@@ -7,6 +7,7 @@ def run_guessing_game
 
 until user_guess == "exit" do 
     comp_guess = rand(1..6)
+    user_guess = gets.chomp.to_i
     if user_guess == comp_guess
      puts "You guessed the correct number!"
    else 
