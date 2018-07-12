@@ -5,7 +5,7 @@ def run_guessing_game
   user_guess = gets.chomp.to_i
 
 
-until user_guess == "exit" do 
+until user_guess = "exit" do 
     comp_guess = rand(1..6)
     if user_guess == comp_guess
      puts "You guessed the correct number!"
